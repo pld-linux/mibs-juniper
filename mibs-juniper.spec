@@ -1,4 +1,5 @@
 Summary:	MIBs for Juniper Networking Hardware
+Summary(pl):	MIB-y dla sprzêtu sieciowego Juniper
 Name:		net-snmp-mibs-juniper
 Version:	7.3
 Release:	0.R1.6.1
@@ -13,10 +14,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MIBs for Juniper Networking Hardware.
 
+%description -l pl
+MIB-y dla sprzêtu sieciowego Juniper.
+
 %prep
 %setup -q -c
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
