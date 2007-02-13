@@ -1,5 +1,5 @@
 Summary:	MIBs for Juniper Networking Hardware
-Summary(pl.UTF-8):   MIB-y dla sprzętu sieciowego Juniper
+Summary(pl.UTF-8):	MIB-y dla sprzętu sieciowego Juniper
 Name:		net-snmp-mibs-juniper
 Version:	7.3
 Release:	0.R1.6.1
